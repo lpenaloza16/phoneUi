@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { listings, Listing } from "./data";
 
 export default function Home() {
@@ -6,6 +7,13 @@ export default function Home() {
     <main>
       <div id="template" className="flex ">
         <span className="flex-1">Image</span>
+        <Image
+          className="rounded-md"
+          src="/assets/landscape.jpg" // Ensure this path is correct
+          width={128}
+          height={128}
+          alt="User Image"
+        />
         <h2 className="flex-1">Title</h2>
         <h3 className="flex-1">Location</h3>
         <span className="flex-1">...</span>
