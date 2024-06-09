@@ -1,7 +1,7 @@
 import React from "react";
 
 function CatalogMenu() {
-  return <div>CatalogMenu</div>;
+  return <div>...</div>;
 }
 
 export default CatalogMenu;

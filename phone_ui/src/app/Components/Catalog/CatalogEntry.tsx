@@ -5,7 +5,7 @@ import CatalogMenu from "./CatalogMenu";
 
 function CatalogEntry() {
   return (
-    <div>
+    <div className="flex">
       <CatalogImage />
       <TitleAndLocation />
       <CatalogMenu />

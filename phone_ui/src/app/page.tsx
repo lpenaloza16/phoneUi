@@ -6,7 +6,7 @@ import CatalogEntry from "./Components/Catalog/CatalogEntry";
 export default function Home() {
   return (
     <main>
-      <div id="template" className="flex ">
+      <div id="template" className="flex-col">
         <CatalogEntry />
         <CatalogEntry />
         <CatalogEntry />
