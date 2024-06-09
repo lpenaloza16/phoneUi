@@ -13,6 +13,9 @@ export default function Home() {
           ))}
         </ul>
       </div>
+      <Link href="/HelloWorld">
+        <p>Test</p>
+      </Link>
     </main>
   );
 }
